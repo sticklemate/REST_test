@@ -1,0 +1,172 @@
+@import "rmit_variables";
+//For this course
+$gray: #ccc;
+$gray-100: #d0d0d0;
+$white: #fff;
+$black: #222;
+$footer: #f5f6f5;
+$warm-grey: #eee;
+$text-grey: #606161;
+$green: #01A19A;
+$blue: #372A57;
+$red: red;
+$aqua: aqua;
+$yellow: yellow;
+$azure: azure;
+
+
+$white: #fff !default;
+$gray-25: #f9fafa;
+$gray-50: #f3f5f5;
+$gray-100: #eef0f1 !default;
+$gray-150: #e8ebec !default;
+$gray-200: #e3e6e8 !default;
+$gray-250: #dde1e3 !default;
+$gray-300: #d7d7d7 !default; //canvas grey button fills
+$gray-350: #d2d7da !default;
+$gray-400: #ccd2d5 !default;
+$gray-450: #c7cdd1 !default; //Canvas gray - borders
+$gray-500: #b3b8bc !default;
+$gray-550: #9fa4a7 !default;
+$gray-600: #8b8f92 !default;
+$gray-650: #777b7d !default;
+$gray-700: #636668 !default;
+$gray-750: #4f5253 !default;
+$gray-800:#3b3d3e !default;
+$gray-850: #272929 !default;
+$gray-900:#131414 !default;
+$black: #000 !default;
+
+//Human friendly greys
+$grey: $gray-200;
+$dark-grey: $gray-450;
+$v-dark-grey: $gray-750;
+$light-grey: $gray-25;
+$mid-grey: $gray-300;
+//utility colours
+$lighter-green: lighten($green, 20%);
+$much-lighter-green: lighten($green, 30%);
+$primary: $red !default;
+$success: $green !default;
+$info: $aqua !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$headings-color: $red !default;
+$light-blue: $azure;
+//Fonts
+$font-family-sans-serif: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+$font-family-serif: "Museo500",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$font-family-monospace: "SFMono-Regular",
+Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+$font-family-script:'Gamja Flower',
+cursive !default;
+//Buttons
+
+//Fonts
+@font-face {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+$font: 'Arial,Helvetica Neue,Helvetica,sans-serif;',
+sans-serif;
+$font2: 'Arial,Helvetica Neue,Helvetica,sans-serif;',
+sans-serif;
+
+
+//Styles
+$headings-color: $blue;
+$headings-font-family: $font2 !important;
+$headings-font-weight: 700;
+$card-border-width: 0.2rem;
+$headings-font-family: $font2 !default;
+$nav-tabs-border-color: $green !default;
+$nav-tabs-link-hover-border-color: $green !default;
+$nav-tabs-active-text-color: $green !default;
+$nav-tabs-link-active-color: $gray-700 !default;
+$nav-tabs-link-active-bg: $white !default;
+$nav-tabs-link-active-border-color: $green !default;
+$nav-tabs-border-width: $card-border-width;
+$tab-active-heading-background: $white;
+$inactive-tab-background: $green;
+$tab-inactive-heading-colour: $white;
+$active-tab-heading: $green;
+$tab-border: $mid-grey;
+$active-tab-heading-border: inherit;
+$link-color: $green;
+//$rmit-btn
+//$rmit-alternate-btn
+$numbers-background: $green;
+$carousel-chevron: $green;
+$carousel-border: $mid-grey;
+$instruction-background: $gray-200;
+$instruction-text: $gray-900;
+$instruction-logo: $green;
+$instruction-highlight: $white;
+$rich-background: $gray-200;
+$rich-area: $gray-25;
+$accent-thickness: 0.5rem;
+$accent-color: $green;
+$accordion-header-inactive: $rich-area;
+$accordion-header-active: $green;
+$accordion-header-active-font: $white;
+$rich-heading-font: $font2;
+$flip-card-front-colour: $white;
+$flip-card-front-text-colour: $gray-900;
+$flip-card-back-colour: $white;
+$flip-card-back-text-colour: $gray-900;
+$hotspot-color: $green;
+$button-primary: $green;
+$button-primary-text: $gray-900;
+$button-primary-hover: $green;
+$button-primary-hover-text: $white;
+$button-default: $green;
+$button-default-text: $gray-900;
+$button-default-hover: $green;
+$button-default-hover-text: $white;
+$radius: 0.1rem;
+$half-radius: $radius / 2;
+$double-radius: $radius *2;
+ //Custom Variables
+
+ $url_2: url('../whm/img/theme/fssi_logo.png');
+$url_3: url('../whm/img/theme/breadcrumb_banner.png');
+$url_1: url('../whm/img/theme/logo_banner_lighter.png');
+$url_4: url("../whm/img/theme/svg/hamburger.svg");
+$url_5: url("../whm/img/theme/svg/fullscreen.svg");
+$url_6: url("../whm/img/theme/vcoss_rmit_logo.png");
+$url_7: url("../whm/img/theme/nav_header.png");
+//prev next icons
+$url_16: url("../whm/img/theme/svg/prev.svg");
+$url_15: url("../whm/img/theme/svg/next.svg");
+
+// //rich content
+// Flipcards
+$url_8: url("../whm/img/theme/flipme_icon.png");
+// introtabs
+$url_9: url("../whm/img/theme/learning_objectives_inverse.png");
+$url_10: url("../whm/img/theme/key_activities_inverse.png");
+$url_11: url("../whm/img/theme/assessments_inverse.png");
+$url_12: url("../whm/img/theme/learning_objectives.png");
+$url_13: url("../whm/img/theme/key_activities.png");
+$url_14: url("../whm/img/theme/assessments.png");
+
+$banner-height: 72px;
+$breadcrumbs-height: 48px;
+$nav-width: 20rem;
+$footer-height: 48px;
